@@ -12,9 +12,11 @@ public class Interface extends JFrame {
     List<Shoes> shoesCatalog = new ArrayList<>(ActionsWithCatalog.CreateShoesCatalog());
 
     static JButton add, delete, edit, sort, search, showData;
-    static JTextField searchManufacturer, name, type, color, size, material, manufacturer, indexToDelete, indexToEdit, name2, type2, color2, size2, material2, manufacturer2;
+    static JTextField searchManufacturer, name, type, color, size, material, manufacturer,
+            indexToDelete, indexToEdit, name2, type2, color2, size2, material2, manufacturer2;
     static JTextArea catalog;
-    static JLabel lSearchManufacturer, lname, ltype, lcolor, lsize, lmaterial, lmanufacturer, lindexToDelete, lindexToEdit, lname2, ltype2, lcolor2, lsize2, lmaterial2, lmanufacturer2, error;
+    static JLabel lSearchManufacturer, lname, ltype, lcolor, lsize, lmaterial, lmanufacturer,
+            lindexToDelete, lindexToEdit, lname2, ltype2, lcolor2, lsize2, lmaterial2, lmanufacturer2, error;
 
     public Interface(String str) {
         super(str);
